@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(Roboto-Medium.ttf);
+}
+
+.title {
+    color: #D9D9D9;
+    font-family: initial;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 20px;
+}
+body {
+    padding-left: 52px !important;
+    padding-top: 42px !important;
+    overflow-x: hidden;
+}
+.nav-link {
+    color: #8D81FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+ul {
+    display: inline !important;
+}
+li {
+    display: inline;
+    margin-left: 44px !important;
+    margin-right: 44px !important;
+}
+.active-nav-link {
+    color: #4E6FAE;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+.social-media-link {
+    display: block;
+    margin-top: 74px;
+}
+
+.social-media-links {
+    display: flex;
+    align-items: center;
+}
+
+.social-media-link,
+.divider,
+a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.divider {
+    width: 2px;
+    height: 48px;
+    background: #5012D5;
+    margin-left: 41px;
+    margin-right: 41px;
+}
+
+.divider2 {
+    width: 2px;
+    height: 24px;
+    background: #5012D5;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.news-text1 {
+    color: #4E6FAE;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.news-text2 {
+    color: #4E6FAE;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.news-containers {
+    display: flex;
+    justify-content: space-around;
+}
+.news-container {
+    width: 500px;
+    height: auto;
+    background: #E7E7E7;
+    padding-top: 21px;
+    padding-bottom: 32px;
+    margin-top: 26px;
+}
+.news-container-title {
+    color: #3F4145;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 23px;
+    font-family: 'roboto';
+}
+.news-container-text-div {
+    padding-left: 36px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+.news-container-text {
+    color: #7E8898;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'roboto';
+}
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #5012D5;
+    color: #84FF81;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #000;
+    background: #5012D5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 18px;
+}
+.month {
+    color: #8D81FF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text-title {
+    color: #4E6FAE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text-p {
+    max-width: 1021px;
+    color: #4E6FAE;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "BPG Nostalgia", sans-serif;
+}
+.text-p1 {
+    margin-left: 142px;
+    margin-top: 75px;
+}
+.text-p2 {
+    margin-left: 66px;
+    margin-right: 97px;
+}
+.blog-post-div {
+    display: flex;
+}
+.news-main {
+    margin-top: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact-main {
+    display: flex;
+    background: #E7E7E7;
+    width: 100%;
+    height: 550px;
+    padding-left: 160px;
+    padding-top: 75px;
+    margin-top: 61px;
+}
+
+.contact-title {
+    color: #4E6FAE;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contact-sm-text {
+    color: #7E8898;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact-text {
+    color: #3F4145;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.title-lg:hover {
+    font-weight: 600;
+}
